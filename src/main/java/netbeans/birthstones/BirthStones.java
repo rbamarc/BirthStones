@@ -16,10 +16,12 @@ public class BirthStones {
         //initialize scanner object
         Scanner inputReader = new Scanner(System.in);
         
+        //ask user for an input
         System.out.println("Please enter a number for a month: ");
         userInput = inputReader.nextLine();
         month = Integer.parseInt(userInput);
         
+        //switch statement with all the outputs for the given response from user
         switch (month) {
             case 1:
                 monthStone = "Month is Jan, birthstone is: Garnet";
@@ -62,6 +64,7 @@ public class BirthStones {
                     
         }
         
+        //print out the results of the output
         System.out.println(monthStone);
     }
 }
